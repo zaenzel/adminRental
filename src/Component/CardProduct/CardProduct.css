@@ -1,0 +1,7 @@
+.btn-edit {
+    @apply p-2 bg-green-600 text-white font-semibold text-sm w-full rounded-md hover:bg-green-700 transition-all;
+  }
+  .btn-delete {
+    @apply p-2 border border-red-500 font-semibold text-red-500 text-sm w-full rounded-md hover:bg-red-200 transition-all;
+  }
+  

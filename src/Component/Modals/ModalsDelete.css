@@ -1,0 +1,21 @@
+.modal {
+  @apply flex justify-center h-screen overflow-x-hidden overflow-y-auto fixed inset-0 z-40 outline-none focus:outline-none;
+}
+.content-modal {
+  @apply absolute p-10 mx-5 bg-white h-fit top-1/2 -translate-y-1/2 max-w-xs rounded-md;
+}
+.bg {
+  @apply opacity-75 fixed inset-0 z-30 bg-black;
+}
+.wrap-btn-modal {
+  @apply flex justify-around mt-4;
+}
+.btn-modal-delete {
+  @apply px-5 py-2 rounded-lg shadow-md font-medium;
+}
+.btn-modal-delete.cancel {
+  @apply border border-biru-primer text-biru-primer hover:bg-blue-100;
+}
+.btn-modal-delete.delete{
+    @apply bg-red-500 text-white hover:bg-red-800
+}

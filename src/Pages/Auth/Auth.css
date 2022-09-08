@@ -1,0 +1,6 @@
+.btn.active{
+    @apply text-4xl font-bold text-biru-primer border-b-4 border-b-biru-primer w-full py-2 transition-all duration-700 ease-in-out
+}
+.btn.no-active{
+    @apply text-gray-400 border-b-2 w-full transition-all duration-700 ease-in-out
+}
